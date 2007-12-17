@@ -8,7 +8,6 @@ URL:		http://sourceforge.net/projects/libexif
 Source:		http://belnet.dl.sourceforge.net/sourceforge/libexif/%{name}-%{version}.tar.bz2
 Requires:	popt
 BuildRequires:	libexif-devel popt-devel pkgconfig
-BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-root
 
 %description
 Most digital cameras produce EXIF files, which are JPEG files with
