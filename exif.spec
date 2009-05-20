@@ -6,6 +6,7 @@ License:	GPLv2+ and LGPLv2+
 Group:		Graphics
 URL:		http://sourceforge.net/projects/libexif
 Source:		http://belnet.dl.sourceforge.net/sourceforge/libexif/%{name}-%{version}.tar.bz2
+Patch0:		exif-0.6.17-wformat.patch
 Requires:	popt
 BuildRequires:	libexif-devel popt-devel pkgconfig
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-root
@@ -20,6 +21,7 @@ This package contains a command line frontend for the EXIF library.
 %prep
 
 %setup -q
+%patch0 -p1 -b .wformat
 
 %build
 %configure2_5x
