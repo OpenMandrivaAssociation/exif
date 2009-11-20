@@ -1,12 +1,12 @@
 Summary:	Command line tools to access EXIF extensions in JPEG files
 Name:		exif
-Version:	0.6.17
-Release:	%mkrel 2
+Version:	0.6.19
+Release:	%mkrel 1
 License:	GPLv2+ and LGPLv2+
 Group:		Graphics
 URL:		http://sourceforge.net/projects/libexif
-Source:		http://belnet.dl.sourceforge.net/sourceforge/libexif/%{name}-%{version}.tar.bz2
-Patch0:		exif-0.6.17-wformat.patch
+Source:		http://downloads.sourceforge.net/project/libexif/%{name}/%{version}/%{name}-%{version}.tar.bz2
+Patch0:		exif-0.6.19-wformat.patch
 Requires:	popt
 BuildRequires:	libexif-devel popt-devel pkgconfig
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-root
