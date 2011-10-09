@@ -1,7 +1,7 @@
 Summary:	Command line tools to access EXIF extensions in JPEG files
 Name:		exif
-Version:	0.6.19
-Release:	%mkrel 3
+Version:	0.6.20
+Release:	%mkrel 1
 License:	GPLv2+ and LGPLv2+
 Group:		Graphics
 URL:		http://sourceforge.net/projects/libexif
@@ -19,7 +19,6 @@ allows you to parse an EXIF file and read the data from those tags.
 This package contains a command line frontend for the EXIF library.
 
 %prep
-
 %setup -q
 %patch0 -p1 -b .wformat
 
