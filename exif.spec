@@ -1,11 +1,13 @@
+%define oversion  0_6_22
+
 Summary:	Command line tools to access EXIF extensions in JPEG files
 Name:		exif
-Version:	0.6.21
-Release:	11
+Version:	0.6.22
+Release:	1
 License:	GPLv2+ and LGPLv2+
 Group:		Graphics
-Url:		http://sourceforge.net/projects/libexif
-Source0:	http://downloads.sourceforge.net/project/libexif/%{name}/%{version}/%{name}-%{version}.tar.bz2
+Url:		https://libexif.github.io
+Source0:	https://github.com/libexif/exif/releases/download/%{name}-%{oversion}-release/%{name}-%{version}.tar.xz
 BuildRequires:	pkgconfig(libexif)
 BuildRequires:	pkgconfig(popt)
 
