@@ -3,7 +3,7 @@
 Summary:	Command line tools to access EXIF extensions in JPEG files
 Name:		exif
 Version:	0.6.22
-Release:	1
+Release:	2
 License:	GPLv2+ and LGPLv2+
 Group:		Graphics
 Url:		https://libexif.github.io
